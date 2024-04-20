@@ -1,0 +1,79 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:2:1-33:12
+INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:2:1-33:12
+	package
+		INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:4:9-34
+		INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:3:9-32
+		INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml
+uses-sdk
+ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:6:5-74
+INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:6:5-74
+INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:6:5-74
+	android:targetSdkVersion
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:6:42-71
+		INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:6:15-41
+		INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:7:5-78
+	android:glEsVersion
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:7:19-51
+	android:required
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:7:52-75
+uses-permission#android.permission.INTERNET
+ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:9:22-64
+application
+ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:11:5-31:19
+INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:11:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml
+	android:label
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:12:17-49
+	android:hasCode
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:11:46-69
+	android:icon
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:13:17-46
+	android:allowBackup
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:11:18-45
+	android:theme
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:14:17-81
+activity#android.app.NativeActivity
+ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:17:9-29:20
+	android:screenOrientation
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:20:17-54
+	android:clearTaskOnLaunch
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:21:17-49
+	android:exported
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:18:17-40
+	android:configChanges
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:19:17-78
+	android:name
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:17:19-60
+meta-data#android.app.lib_name
+ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:24:13-86
+	android:value
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:24:60-83
+	android:name
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:24:24-59
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:25:13-28:29
+action#android.intent.action.MAIN
+ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:27:27-74

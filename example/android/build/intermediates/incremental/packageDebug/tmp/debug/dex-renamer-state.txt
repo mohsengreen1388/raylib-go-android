@@ -1,0 +1,4 @@
+#Sat Apr 20 17:56:42 IRST 2024
+base.0=/home/mohsen/Downloads/utility/finall/pack/android/example/android/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

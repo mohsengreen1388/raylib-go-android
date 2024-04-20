@@ -1,0 +1,3 @@
+com.example.android:drawable/icon1 = 0x7f010001
+com.example.android:string/app_name = 0x7f020000
+com.example.android:drawable/icon = 0x7f010000

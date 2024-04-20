@@ -1,0 +1,76 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:6:5-74
+8        android:minSdkVersion="16"
+8-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:6:15-41
+9        android:targetSdkVersion="34" />
+9-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:6:42-71
+10
+11    <uses-feature
+11-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:7:5-78
+12        android:glEsVersion="0x00020000"
+12-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:7:19-51
+13        android:required="true" />
+13-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:7:52-75
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:9:5-67
+15-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:9:22-64
+16
+17    <!-- We do not have Java code. Therefore android:hasCode is set to false. -->
+18    <application
+18-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:11:5-31:19
+19        android:allowBackup="false"
+19-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:11:18-45
+20        android:debuggable="true"
+21        android:extractNativeLibs="true"
+22        android:hasCode="false"
+22-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:11:46-69
+23        android:icon="@drawable/icon"
+23-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:13:17-46
+24        android:label="@string/app_name"
+24-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:12:17-49
+25        android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen" >
+25-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:14:17-81
+26
+27        <!-- Our activity is the built-in NativeActivity framework class. -->
+28        <activity
+28-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:17:9-29:20
+29            android:name="android.app.NativeActivity"
+29-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:17:19-60
+30            android:clearTaskOnLaunch="true"
+30-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:21:17-49
+31            android:configChanges="orientation|keyboardHidden|screenSize"
+31-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:19:17-78
+32            android:exported="true"
+32-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:18:17-40
+33            android:screenOrientation="landscape" >
+33-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:20:17-54
+34
+35            <!-- Tell NativeActivity the name of our .so -->
+36            <meta-data
+36-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:24:13-86
+37                android:name="android.app.lib_name"
+37-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:24:24-59
+38                android:value="example" />
+38-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:24:60-83
+39
+40            <intent-filter>
+40-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:25:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:26:17-69
+41-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:27:17-77
+43-->/home/mohsen/Downloads/utility/finall/pack/android/example/android/AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46    </application>
+47
+48</manifest>

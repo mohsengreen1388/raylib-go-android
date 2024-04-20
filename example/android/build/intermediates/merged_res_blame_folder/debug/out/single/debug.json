@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.android-merged_res-4:/drawable-mdpi_icon.png.flat",
+        "source": "com.example.android-android-5:/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "com.example.android-merged_res-4:/drawable-hdpi_icon1.png.flat",
+        "source": "com.example.android-android-5:/drawable-hdpi/icon1.png"
+    },
+    {
+        "merged": "com.example.android-merged_res-4:/drawable-ldpi_icon.png.flat",
+        "source": "com.example.android-android-5:/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "com.example.android-merged_res-4:/drawable-mdpi_icon1.png.flat",
+        "source": "com.example.android-android-5:/drawable-mdpi/icon1.png"
+    },
+    {
+        "merged": "com.example.android-merged_res-4:/drawable-hdpi_icon.png.flat",
+        "source": "com.example.android-android-5:/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "com.example.android-merged_res-4:/drawable-ldpi_icon1.png.flat",
+        "source": "com.example.android-android-5:/drawable-ldpi/icon1.png"
+    }
+]
